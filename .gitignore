@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+venv/
+# ─── Bases de Datos y Datos Generados ──────────────────────────────────────────
+data/chroma_db/
+*.sqlite3
+
+# ─── Archivos de Entorno de Usuario / IDE ──────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ─── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
